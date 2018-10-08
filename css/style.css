@@ -1,0 +1,42 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.btn{
+  height: 3em;
+  width: 3em;
+  margin: 2px;
+  cursor: pointer;
+  font-size: 20px;
+  background: red;
+  border: none;
+  color: white;
+}
+.textfield{
+  width: 12.35em;
+  padding: 5px;
+  margin: 2px;
+  font-size: 20px;
+  text-align: right;
+  border: none;
+  color: red;
+}
+
+.main{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+body {
+  background: linear-gradient(to right, #e91e63, #3f51b5);
+  height: 100px;
+}
+
+h1, h2{
+  color:white;
+  text-shadow: 2px 2px grey;
+  text-align: center;
+}
